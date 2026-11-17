@@ -1,0 +1,30 @@
+# Artefatos de build
+build/
+bin/
+*.o
+*.d
+*.a
+*.out
+
+# Debug / análise
+core
+vgcore.*
+*.dSYM/
+callgrind.out.*
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ferramentas
+compile_commands.json
+.cache/
+
+# Documentação da faculdade
+docs
